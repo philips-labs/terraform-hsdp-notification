@@ -35,7 +35,8 @@ resource "hsdp_iam_role" "producer_admin" {
     "NS_PRODUCER.CREATE",
     "NS_PRODUCER.READ",
     "NS_PRODUCER.DELETE",
-    "NS_PRODUCER_SCOPE.READ",
+    # Below permission is missing in IAM but still referenced in the documentation
+    #"NS_PRODUCER_SCOPE.READ",
     "NS_TOPIC.CREATE",
     "NS_TOPIC.READ",
     "NS_TOPIC.UPDATE",
