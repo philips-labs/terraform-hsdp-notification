@@ -1,7 +1,17 @@
 <img src="https://cdn.rawgit.com/hashicorp/terraform-website/master/content/source/assets/images/logo-hashicorp.svg" width="500px">
 
 # HSDP Notification onboarding module
-This module creates all necessary IAM groups and roles to support successful onboarding onto the HSDP Notification services. Example usage:
+
+This module creates all necessary IAM groups and roles to support successful onboarding onto the HSDP Notification services. 
+
+## Disclaimer
+
+> [!Important]
+> This repository is managed as Philips Inner-source / Open-source.
+> This repository is NOT endorsed or supported by HSSA&P, I&S Cloud Operations and/or the HSP AWS Account team. 
+> You are expected to self-support or raise tickets on the Github project and NOT raise tickets in HSP ServiceNow. 
+
+## Example usage
 
 ```hcl
 module "notification" {
